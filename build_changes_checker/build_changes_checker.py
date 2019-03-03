@@ -1,13 +1,10 @@
 _author_ = 'thinksabin'
 
-
-
 import requests
 import os
 import subprocess
 import sys
 import configparser
-
 from os import path
 
 """
@@ -15,7 +12,6 @@ Sample Usage:
 python build_changes_checker.py SBX git-tag-1 git-tag-2
 python build_changes_checker.py SBX branch1 branch2
 """
-
 
 
 def write_to_file(base_path, base_patch_name, latest_patch_name, reponame):
@@ -108,6 +104,6 @@ if __name__ == '__main__':
         except Exception as e:
             print('Couldnt find config.ini file. ')
     else:
-        print('Requires 4 arguements like in example')
+        print('Requires 4 arguments like in example')
         print('Sample Usage: python build_changes_checker.py SBX git-tag-1 git-tag-2')
 
