@@ -24,4 +24,5 @@ API tested on: Bitbucket
 Python 3.7  
   
   
-  <a href="https://snyk.io/test/github/thinksabin/ReleaseManagementToolBox?targetFile=build_changes_checker%2Frequirements.txt"><img src="https://snyk.io/test/github/thinksabin/ReleaseManagementToolBox/badge.svg?targetFile=build_changes_checker%2Frequirements.txt" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/thinksabin/ReleaseManagementToolBox?targetFile=build_changes_checker%2Frequirements.txt" style="max-width:100%;"></a>
+  <a href="https://snyk.io/test/github/thinksabin/ReleaseManagementToolBox?targetFile=build_changes_checker%2Frequirements.txt"><img src="https://snyk.io/test/github/thinksabin/ReleaseManagementToolBox/badge.svg?targetFile=build_changes_checker%2Frequirements.txt" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/thinksabin/ReleaseManagementToolBox?targetFile=build_changes_checker%2Frequirements.txt" style="max-width:100%;"></a>  
+  [![Known Vulnerabilities](https://snyk.io/test/github/thinksabin/ReleaseManagementToolBox/badge.svg?targetFile=build_changes_checker%2Frequirements.txt)](https://snyk.io/test/github/thinksabin/ReleaseManagementToolBox?targetFile=build_changes_checker%2Frequirements.txt)
