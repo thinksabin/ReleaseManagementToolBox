@@ -98,11 +98,10 @@ if __name__ == '__main__':
             project_url = config[project_id]["project_url"]
             repos_to_check = config[project_id]["repos_to_check"]
             commits_filename = base_patch_name + '_' + latest_patch_name + '.commits'
-
-            delete_and_create_file(commits_filename)
-            do_bitbucket_api_call(project_url, repos_to_check)
         except Exception as e:
             print('Couldnt find config.ini file. ')
+        delete_and_create_file(commits_filename)
+        do_bitbucket_api_call(project_url, repos_to_check)
     else:
         print('Requires 4 arguments like in example')
         print('Sample Usage: python build_changes_checker.py SBX git-tag-1 git-tag-2')
